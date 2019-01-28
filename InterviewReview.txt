@@ -1,0 +1,73 @@
+Java:
+1.OOPS features
+2.Why should hashcode and equals is overridden?
+3.ClassnotFoundException VS ClassDefinitionNofound error
+4.what is automic integer
+5.Immutable class in java and how we can create own immutable class.
+write immutable class and what if able to hack the date 
+6.What is the use of Serialization and if we change the serializable version id in a later release then what will happen.
+7.Callable vs Runnable
+8.HashMap vs concurrent Hasmap
+9.Comparable Vs Comparator
+10.String str ="AnandWesly" find out first non repitative character.
+11. HashMap key is String and new String difference
+12.Overridding vs overloading
+13.what is synchronized block
+14.what is Join and wait
+15.Checked and Unchecked exceptions
+16.what is streams and capturing in java
+17.Inheritance class
+18.Find numeric and alphanumeric in a given string 
+19.What is garbage collection
+20.Lambda expression and syntax and how can handle exception in lamda expression
+21.JVM vs JRE vs JDK
+
+DataStructure:
+1.Write your custom arraylist.
+2.What is singleton pattern
+3.Implementation of binary search tree
+4.two integer sorted array and merge to single sorted array
+
+SPRING:
+
+1.How the spring container loads the bean? does it validate the beans while loading?
+2.what is the extra feature get from pointcut
+3.what will happen if the class is lazy loading and the child class is not.
+4.what is the benefit of spring and why should use it
+5.How IOC works?
+
+EJB:
+Different types of beans
+
+REST API
+
+1.what is Etag
+2.HTTP methods and why POST VS PUT
+
+
+PLSQL
+1.Function VS stored procedure
+2.How will handle the oracle exceptions
+3.Primay key VS Unique key
+4.How to get the table schema from Java
+5.Write query to get the employee hierarchy records.
+6. Result of select * from table, table1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

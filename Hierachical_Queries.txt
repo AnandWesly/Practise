@@ -1,0 +1,50 @@
+1.Divide and conquer 
+
+1.Hierarchy is nothing but the parent child relationship within same table or the view.
+
+
+EMPLOYEE_ID LAST_NAME                 MANAGER_ID
+----------- ------------------------- ----------
+        101 Kochhar                          100
+        108 Greenberg                        101
+        109 Faviet                           108
+        110 Chen                             108
+        111 Sciarra                          108
+        112 Urman                            108
+        113 Popp                             108
+        200 Whalen                           101
+		
+		
+START WITH --> Specifies the root row of the hierarchy.
+CONNECT BY --> specifies the relationship between the parent and  child rows.
+NOCYCLE --> Instructs the Database to return rows from a query even if a CONNECT BY LOOP exists in the data.
+SYS_CONNECT_BY_PATH 
+PRIOR -->
+
+1.Bottom up
+2.top down 
+
+Top down query:
+
+Select emp.*, prior empName as supervisiorName, LEVEL from Employee START WITH employee_id =100 connect by prior employee_id = manager_id;
+
+select lpad(' ',level*5,' ')||empName, employee_id,MANAGER_ID from Employee START with Manager_id =100 connect by prior employee_id = manager_id
+order SIBLINGS by empName
+
+
+IF the employee is manager_id for himself then the hierarchy will go in loop and will give "Connect by loop in user data"
+Solution is to use NOCYCLE
+
+select lpad(' ',level*5,' ')||empName, employee_id,MANAGER_ID from Employee START with Manager_id =100 connect by nocycle prior employee_id = manager_id
+order SIBLINGS by empName
+
+select lpad(' ',level*5,' ')||empName, employee_id,MANAGER_ID, connect_by_root ename boss from Employee START with Manager_id =100 connect by prior employee_id = manager_id
+order SIBLINGS by empName
+
+
+SYS_CONNECT_BY_PATH
+select lpad(‘ ‘,level*3,’ ‘)||ename name,
+SYS_CONNECT_BY_PATH(ename,’/’) boss
+from Employee_M
+connect by prior employee_id = manager_id
+start with manager_id is null;
