@@ -7,7 +7,7 @@ Java:
 write immutable class and what if able to hack the date 
 6.What is the use of Serialization and if we change the serializable version id in a later release then what will happen.
 7.Callable vs Runnable
-8.HashMap vs concurrent Hasmap
+8.HashMap vs concurrent Hasmap VS Synchronized map
 9.Comparable Vs Comparator
 10.String str ="AnandWesly" find out first non repitative character.
 11. HashMap key is String and new String difference
@@ -21,6 +21,12 @@ write immutable class and what if able to hack the date
 19.What is garbage collection
 20.Lambda expression and syntax and how can handle exception in lamda expression
 21.JVM vs JRE vs JDK
+22.What is optional class in java 8
+23.What is the use of default method in interface java 8
+24.what is the difference between flatmap and map in stream
+25.what is map in stream API
+
+
 
 DataStructure:
 1.Write your custom arraylist.
