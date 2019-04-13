@@ -28,6 +28,7 @@ write immutable class and what if able to hack the date
 
 26.What is memory leak and how to solve it.
 27.what is heap and stack overflow
+28.Hashset vs Treeset
 
 DataStructure:
 1.Write your custom arraylist.
