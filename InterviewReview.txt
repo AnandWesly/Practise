@@ -30,6 +30,22 @@ write immutable class and what if able to hack the date
 27.what is heap and stack overflow
 28.Hashset vs Treeset
 
+29.can override method throw the exception
+30.NPE is checked or unchecked
+31.intermideate stream vs terminated stream
+32.map vs flatmap
+33.what is the need of default method in interface
+34.how to execute the thread in order
+35.who schedule the thread execution in java
+36.what is we overload static main method 
+37.How it works ==> system.out.
+38.Can you override Static Methods in Java?
+39.How to stop method of main thread execution?
+40.Difference between final and immutable
+41.How to maximize the heap size or what is memoryOutofError and how to resolve it.
+
+
+
 DataStructure:
 1.Write your custom arraylist.
 2.What is singleton pattern
@@ -65,8 +81,14 @@ PLSQL
 7.Delete vs drop vs truncate
 8.what is inline query
 9.How to add role
-
-
+10.What is interceptor
+11.what is max size for varchar2
+12.what is the use of CLOB
+13.what is the use of DUAL
+14.How to copy the table record from one table to another
+15.UNION vs UNION ALL
+16.how to search the stirng in CLOB
+17.what is fullText index?
 
 
 
