@@ -43,6 +43,9 @@ write immutable class and what if able to hack the date
 39.How to stop method of main thread execution?
 40.Difference between final and immutable
 41.How to maximize the heap size or what is memoryOutofError and how to resolve it.
+42.explain SOLID priniples
+43.explain memory management stack vs heap
+44.how do you customize the exception?
 
 
 
@@ -51,6 +54,7 @@ DataStructure:
 2.What is singleton pattern
 3.Implementation of binary search tree
 4.two integer sorted array and merge to single sorted array
+5.depth first search vs breadth first search
 
 SPRING:
 
