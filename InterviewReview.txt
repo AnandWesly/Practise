@@ -1,5 +1,5 @@
 Java:
-1.OOPS features
+1.OOPS features https://www.interviewbit.com/blog/features-of-oops/
 2.Why should hashcode and equals is overridden?
 3.ClassnotFoundException VS ClassDefinitionNofound error
 4.what is automic integer
