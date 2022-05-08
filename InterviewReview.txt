@@ -46,6 +46,7 @@ write immutable class and what if able to hack the date
 42.explain SOLID priniples
 43.explain memory management stack vs heap
 44.how do you customize the exception?
+45.Collection framework ==> https://www.edureka.co/blog/java-collections/
 
 
 
