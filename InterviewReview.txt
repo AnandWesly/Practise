@@ -1,6 +1,6 @@
 Java:
 1.OOPS features https://www.interviewbit.com/blog/features-of-oops/
-2.Why should hashcode and equals is overridden?
+2.Why should hashcode and equals is overridden? https://www.techiedelight.com/why-override-equals-and-hashcode-methods-java/
 3.ClassnotFoundException VS ClassDefinitionNofound error
 4.what is automic integer
 5.Immutable class in java and how we can create own immutable class.
