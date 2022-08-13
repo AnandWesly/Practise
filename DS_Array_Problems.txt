@@ -1,1 +1,9 @@
-1.
+====Array Problem sheet====
+1. Problem Statement: Given a matrix if an element in the matrix is 0 then you will have to set its entire column and row to 0 and then return the matrix.
+ * in brute force can travel to each cell to the left,right,above,below
+ * if want to reduce the traversal then use dummy array which in turn will make the space complexity O(R+C)
+ * to optimize the better approach to reduce the space complexity, should use the first row and column as dummy
+   - want to preserve the actual value and also the dummy values ==> should traverse the matrix from the back
+   - and also the first row,col will have conflict as that has to be used for row and column ==> to solve this use different varaible to store the column0 value
+  
+
