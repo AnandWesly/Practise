@@ -5,5 +5,11 @@
  * to optimize the better approach to reduce the space complexity, should use the first row and column as dummy
    - want to preserve the actual value and also the dummy values ==> should traverse the matrix from the back
    - and also the first row,col will have conflict as that has to be used for row and column ==> to solve this use different varaible to store the column0 value
+   
+2.Problem Statement: Given an integer N, return the first N rows of Pascal’s triangle.
+  * In Pascal’s triangle, each number is the sum of the two numbers directly above
+  * nCk = (n!)/(n-k)!*(k!)
+
+
   
 
